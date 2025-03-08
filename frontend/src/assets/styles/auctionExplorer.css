@@ -1,0 +1,35 @@
+.auction-explorer {
+    text-align: center;
+    padding: 50px 20px;
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    color: white;
+    border-radius: 10px;
+  }
+  
+  .featured-item {
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .featured-item img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .featured-item p {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .featured-item button {
+    font-weight: bold;
+  }
+  
+  button.mt-3 {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  

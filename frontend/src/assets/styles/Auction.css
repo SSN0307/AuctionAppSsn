@@ -1,0 +1,93 @@
+/* Auction Page Styling */
+.auction-title {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+/* Auction Grid */
+.auction-grid {
+  margin-top: 30px;
+}
+
+/* Auction Card Styling */
+.auction-card {
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+  background: linear-gradient(135deg, #ffe3e3, #ffb3b3);
+  transition: transform 0.3s ease-in-out;
+}
+
+.auction-card:hover {
+  transform: scale(1.05);
+}
+
+/* Auction Item Image */
+.auction-img {
+  height: 180px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+/* Auction Item Title */
+.auction-item-title {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* Auction Item Price */
+.auction-item-price {
+  color: #333;
+  font-size: 16px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+/* Buttons */
+.place-bid,
+.add-to-cart {
+  width: 100%;
+  margin-top: 5px;
+  padding: 8px;
+  font-size: 14px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+/* Place Bid Button */
+.place-bid {
+  background-color: #ff5733;
+  color: white;
+  border: none;
+}
+
+.place-bid:hover {
+  background-color: #d84315;
+}
+
+/* Add to Cart Button */
+.add-to-cart {
+  background-color: #28a745;
+  color: white;
+  border: none;
+}
+
+.add-to-cart:hover {
+  background-color: #218838;
+}
+
+/* Cart Badge */
+.cart-badge {
+  background-color: red;
+  color: white;
+  border-radius: 50%;
+  padding: 2px 6px;
+  font-size: 12px;
+  position: absolute;
+  top: -5px;
+  right: -5px;
+}

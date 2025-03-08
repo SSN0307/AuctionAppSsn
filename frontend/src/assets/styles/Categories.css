@@ -1,0 +1,11 @@
+.auction-card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 10px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .auction-card:hover {
+    transform: scale(1.05);
+  }
+  
